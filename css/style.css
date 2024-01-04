@@ -8,6 +8,7 @@
 
 * {
   text-align: center;
+  scroll-behavior: smooth;
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -42,8 +43,7 @@ h2 {
   padding: 3px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: var(--txt-color);
-  text-align: center;
-  margin: 1rem 0;
+  margin: 0 0 2px 0;
   font-size: 1rem;
 }
 h2 .matematik,
@@ -71,7 +71,9 @@ h2 .luas,
   right: auto;
   bottom: auto;
   border-radius: 3px;
-  background: var(--button-color);
+  background-color: #8f7a02a9;
+  justify-content: center;
+  background-repeat: no-repeat;
   opacity: 100%;
   transform: scale(1);
 }
@@ -103,63 +105,27 @@ h2 .luas,
 }
 /* button Pilihan End */
 
-/* button luas segitiga start */
-.bls {
+.btn-luas-segitiga {
   font-weight: 600;
   letter-spacing: 2px;
-  font-size: 1.2em;
+  font-size: 1em;
   width: 200px;
-  border: none;
-  margin: 0 8px;
+  border: 1px;
   border-radius: 20px;
-  padding: 10px;
+  padding: 5px;
   position: relative;
-  background: none;
-  box-shadow: 2px 2px 4px rgba(44, 62, 80, 0.6),
-    -2px -2px 4px rgba(41, 128, 185, 1);
+  background: var(--button-color);
+  border-radius: 500px;
+  position: relative;
+  width: 100px;
+  margin: auto;
 }
 
-.bls:hover {
+.btn-luas-segitiga:hover {
   background-color: #8f7a02;
 }
-/* button luas segitiga end */
 
-/* button keliling segitiga start */
-.hkl {
-  font-weight: 600;
-  letter-spacing: 2px;
-  font-size: 1.2em;
-  width: 200px;
-  border: none;
-  border-radius: 20px;
-  padding: 10px;
-  position: relative;
-  background: none;
-  box-shadow: 2px 2px 4px rgba(44, 62, 80, 0.6),
-    -2px -2px 4px rgba(41, 128, 185, 1);
-}
-
-.hkl:hover {
-  background-color: #8f7a02;
-}
-/* button keliling segitiga End */
-
-/* hitung luas */
-.hitungluas {
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
-}
-input {
-  text-decoration: none;
-  border-radius: 30px;
-  padding: 7px;
-  margin: 0.2em;
-  text-align: center;
-}
-
-.bls,
-.hkl {
+.btn-keliling-segitiga {
   font-weight: 600;
   letter-spacing: 2px;
   font-size: 1em;
@@ -173,6 +139,34 @@ input {
   position: relative;
   width: 100px;
   margin: auto;
+}
+
+.btn-keliling-segitiga:hover {
+  background-color: #8f7a02;
+}
+
+.hitungluas {
+  color: rgb(43, 43, 43);
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.hitungkeliling {
+  color: rgb(43, 43, 43);
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 7px;
+  margin: 0.2em;
+  text-align: center;
+  border: none;
+  background-color: #8f7a0275;
 }
 
 /* h3 hasil start*/

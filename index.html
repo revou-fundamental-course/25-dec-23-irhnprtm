@@ -43,74 +43,91 @@
         alt="gambar rumus hitung luas dan keliling segitiga"
       />
     </div>
-    <br />
-    <!-- input tipe hitung luas -->
-    <h2 id="mls">MENGHITUNG LUAS SEGITIGA</h2>
-    <h4>
-      Berdasarkan gambar Diatas
-      <br />
-      maka Rumus Untuk Menghiting Luas dari sebuah Segitiga adalah :
-      <br />
-      1/2 dikali Alas dikali Tinggi (0.5 X A X T)
-    </h4>
-    <br />
-    <div class="hitungluas">
-      <table id="sectionluassegitiga">
-        <tr>
-          <input type="text" id="als" placeholder="Masukkan Nilai Alas" />
-          <input type="text" id="nts" placeholder="Masukkan Nilai Tinggi" />
-          <br />
-        </tr>
-        <br />
-        <tr>
-          <button class="bls" onclick="hitungluas()">Hitung</button>
-          <button class="bls" onclick="resetform()">Reset</button>
-          <br />
-          <h3 id="tampilkanhasil">
-            <br id="spaci" />
-            <br id="spaci" />
-            <br id="spaci" />
-          </h3>
-        </tr>
-      </table>
-    </div>
-    <br />
-    <br />
 
-    <h2 id="mks">MENGHITUNG KELILING SEGITIGA</h2>
-    <h4>
-      Berdasarkan Gambar Diatas <span>(Tambah Bukan Kali)</span>
+    <div class="container-utama">
       <br />
-      Maka rumus untuk menghitung Kelililing Segitiga adalah :
-      <br />
-      sisi A ditambah sisi B ditambah sisi C (A + B + C)
-    </h4>
-    <br />
-    <div class="hitungkeliling">
-      <table id="sectionluassegitiga">
-        <tr>
-          <input type="text" id="ssa" placeholder="masukkan nilai sisi A" />
-          <input type="text" id="ssb" placeholder="masukkan nilai sisi B" />
-          <input type="text" id="ssc" placeholder="masukkan nilai sisi C" />
-          <br />
-        </tr>
+      <!-- input tipe hitung luas -->
+      <h2 id="mls">MENGHITUNG LUAS SEGITIGA</h2>
+      <h4>
+        Berdasarkan gambar Diatas
         <br />
-        <tr>
-          <button class="hkl" onclick="hitungkeliling()">Hitung</button>
-          <button class="hkl" onclick="resetform2()">Reset</button>
+        maka Rumus Untuk Menghiting Luas dari sebuah Segitiga adalah :
+        <br />
+        1/2 dikali Alas dikali Tinggi (0.5 X A X T)
+      </h4>
+      <br />
+      <div class="hitungluas">
+        <table id="sectionluassegitiga">
+          <tr>
+            <input type="text" id="als" placeholder="Masukkan Nilai Alas" />
+            <input type="text" id="nts" placeholder="Masukkan Nilai Tinggi" />
+            <br />
+          </tr>
           <br />
-          <h3 id="tampilkanhasil2">
-            <br id="spaci1" />
-            <br id="spaci1" />
-            <br id="spaci1" />
-          </h3>
-        </tr>
-      </table>
+          <tr>
+            <div>
+              <button class="btn-luas-segitiga" onclick="hitungluas()">
+                Hitung
+              </button>
+              <button class="btn-luas-segitiga" onclick="resetform()">
+                Reset
+              </button>
+              <a href="#top">
+                <button class="btn-luas-segitiga">Kembali</button>
+              </a>
+            </div>
+            <br />
+            <h3 id="tampilkanhasil">
+              <br id="spaci" />
+              <br id="spaci" />
+              <br id="spaci" />
+            </h3>
+          </tr>
+        </table>
+      </div>
+      <br />
+      <br />
+
+      <h2 id="mks">MENGHITUNG KELILING SEGITIGA</h2>
+      <h4>
+        Berdasarkan Gambar Diatas
+        <br />
+        Maka rumus untuk menghitung Kelililing Segitiga adalah :
+        <br />
+        sisi A ditambah sisi B ditambah sisi C (A + B + C)
+      </h4>
+      <br />
+      <div class="hitungkeliling">
+        <table id="sectionluassegitiga">
+          <tr>
+            <input type="text" id="ssa" placeholder="masukkan nilai sisi A" />
+            <input type="text" id="ssb" placeholder="masukkan nilai sisi B" />
+            <input type="text" id="ssc" placeholder="masukkan nilai sisi C" />
+            <br />
+          </tr>
+          <br />
+          <tr>
+            <div>
+              <button class="btn-keliling-segitiga" onclick="hitungkeliling()">
+                Hitung
+              </button>
+              <button class="btn-keliling-segitiga" onclick="resetform2()">
+                Reset
+              </button>
+              <a href="#top">
+                <button class="btn-keliling-segitiga">Kembali</button>
+              </a>
+            </div>
+            <br />
+            <h3 id="tampilkanhasil2">
+              <br id="spaci1" />
+              <br id="spaci1" />
+              <br id="spaci1" />
+            </h3>
+          </tr>
+        </table>
+      </div>
     </div>
-    <marquee behavior="scroll" direction="left" scrollamount="10"
-      >Terimakasih Saya Ucapkan Pada <span>REVOU</span> Untuk Ilmunya yang
-      Bermanfaat
-    </marquee>
     <footer>
       <a href="#top">Kembali Keatas</a>
       <br />
@@ -122,6 +139,10 @@
         myFacebook</a
       >
     </footer>
+    <marquee behavior="scroll" direction="left" scrollamount="9"
+      >Terimakasih Saya Ucapkan Pada <span>REVOU</span> Untuk Ilmunya yang
+      Bermanfaat
+    </marquee>
     <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>
