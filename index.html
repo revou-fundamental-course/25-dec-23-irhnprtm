@@ -20,26 +20,46 @@
         <span class="luas">LUAS</span> dan
         <span class="keliling">KELILING</span> dari sebuah Segitiga
       </h2>
+    </div>
+    <br />
+
+    <div class="pilihcalc">
+      <a href="#sectionluassegitiga">
+        <button class="buttons" id="htg-luas">Hitung Luas</button>
+      </a>
+      <a href="#mks">
+        <button class="buttons" id="htg-keliling">Hitung Keliling</button>
+      </a>
+    </div>
+
+    <br />
+    <br />
+    <div>
       <img
         class="rumusimg1"
         src="asset/rumus1.png"
         alt="gambar rumus hitung luas dan keliling segitiga"
       />
     </div>
-
+    <br />
     <!-- input tipe hitung luas -->
-    <h2>MENGHITUNG LUAS SEGITIGA</h2>
-    <table>
-      <tr>
-        <input type="text" id="als" placeholder="Masukkan Nilai Alas" />
-        <input type="text" id="nts" placeholder="Masukkan Nilai Tinggi" />
-        <br />
-        <button class="btn-hitung-luas" onclick="hitungluas()">Hitung</button>
-        <button class="btn-reset-luas" onclick="resetform()">Reset</button>
-        <br />
-        <h3 id="tampilkanhasil"></h3>
-      </tr>
-    </table>
+    <h2 id="mls">MENGHITUNG LUAS SEGITIGA</h2>
+    <div class="hitungluas">
+      <table id="sectionluassegitiga">
+        <tr>
+          <input type="text" id="als" placeholder="Masukkan Nilai Alas" />
+          <input type="text" id="nts" placeholder="Masukkan Nilai Tinggi" />
+          <br />
+        </tr>
+
+        <tr>
+          <button class="bls" onclick="hitungluas()">Hitung</button>
+          <button class="bls" onclick="resetform()">Reset</button>
+          <br />
+          <h3 id="tampilkanhasil"></h3>
+        </tr>
+      </table>
+    </div>
 
     <footer>ini adalah footer</footer>
     <script type="text/javascript" src="js/script.js"></script>

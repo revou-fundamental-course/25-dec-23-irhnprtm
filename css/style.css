@@ -103,14 +103,34 @@ h2 .luas,
 .button:hover::after {
   left: 0;
 }
-/* .buttons::after {
-  z-index: -1;
-  content: "";
-  top: 0;
-  left: 100%;
+
+/* gitung luas */
+.hitungluas {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  text-decoration: none;
+  /* display: block; */
+  border-radius: 30px;
+  padding: 7px;
+  /* margin: 0.2em; */
+  text-align: center;
+}
+
+.bls {
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 1em;
+  width: 200px;
+  border: 1px;
   border-radius: 20px;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: teal;
-} */
+  padding: 5px;
+  position: relative;
+  background: var(--button-color);
+  /* justify-content: center;
+  position: relative;
+  width: 100px;
+  margin: auto; */
+}
