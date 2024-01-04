@@ -2,7 +2,6 @@
 
 //hitung luas start
 
-// hitung luas = button hitung
 function hitungluas() {
   var alas = document.getElementById("als").value;
   var tinggi = document.getElementById("nts").value;
@@ -29,7 +28,6 @@ function hitungluas() {
   }
 }
 
-// hitung luas = button reset
 function resetform() {
   document.getElementById("als").value = "";
   document.getElementById("nts").value = "";
@@ -39,7 +37,6 @@ function resetform() {
 // hitung luas end
 
 // hitung keliling start
-// hitung keliling = button hitung keliling
 function hitungkeliling() {
   var sisib = document.getElementById("ssb").value;
   var sisic = document.getElementById("ssc").value;
@@ -85,13 +82,5 @@ function resetform2() {
   document.getElementById("ssb").value = "";
   document.getElementById("ssc").value = "";
   document.getElementById("tampilkanhasil2").innerHTML =
-    "Silahkan <br> memasukkan nilai setiap sisi <br> yang ingin di hitung <br>";
+    "Silahkan <br> memasukkan nilai setiap sisi <br> yang ingin di hitung";
 }
-// function resetform2{
-//     if (onclick) {
-//         Animation{
-
-//         }
-
-//     }
-// }
