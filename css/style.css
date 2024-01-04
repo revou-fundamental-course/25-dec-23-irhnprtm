@@ -16,7 +16,7 @@
 
 /* body */
 body {
-  background: url(/asset/wws.png);
+  background-image: url("/asset/gambarbumi.webp");
   background-size: auto;
   background-color: rgba(0, 0, 0, 0.39);
   align-items: center;
@@ -50,19 +50,21 @@ h2 .matematik,
 .calc {
   color: var(--primary-color);
 }
-h2 .luas,
-.keliling {
+h2 .paragraph1 {
   color: var(--button-color);
 }
 
-/* img segitiga start */
-.rumusimg1 {
+h3 .tampilkanhasil {
+  width: 7rem;
+}
+
+.rumus-img1 {
   display: block;
   margin: auto;
   margin-bottom: 1rem;
   width: 400px;
 }
-.rumusimg1:hover {
+.rumus-img1:hover {
   transition: all 0.5s ease 0.1s;
   content: "";
   position: center;
@@ -71,33 +73,27 @@ h2 .luas,
   right: auto;
   bottom: auto;
   border-radius: 3px;
-  background-color: #8f7a02a9;
+  background-color: #8f7a027e;
   justify-content: center;
   background-repeat: no-repeat;
   opacity: 100%;
   transform: scale(1);
 }
-/* img segitiga end */
 
-/* button pilihan start*/
-.pilihcalc {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .buttons {
   font-weight: 600;
   letter-spacing: 2px;
-  font-size: 1.2em;
+  font-size: 1em;
   width: 200px;
-  border: none;
-  margin: 0 8px;
+  border: 1px;
   border-radius: 20px;
-  padding: 10px;
+  padding: 5px;
   position: relative;
-  background: none;
-  box-shadow: 2px 2px 4px rgba(44, 62, 80, 0.6),
-    -2px -2px 4px rgba(41, 128, 185, 1);
+  background: var(--button-color);
+  border-radius: 500px;
+  position: relative;
+  width: 200px;
+  margin: auto;
 }
 
 .buttons:hover {
@@ -169,14 +165,11 @@ input {
   background-color: #8f7a0275;
 }
 
-/* h3 hasil start*/
 h3 {
   margin-top: 5px;
   margin-bottom: 5px;
 }
-/* h3 hasil start*/
 
-/* footer start */
 footer {
   text-decoration: none;
   background-color: #8f7a02;
@@ -184,4 +177,3 @@ footer {
   padding: 5px;
   margin-top: 1px;
 }
-/* footer end */

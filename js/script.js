@@ -28,13 +28,11 @@ function hitungluas() {
   }
 }
 
-function resetform() {
+function resetForm() {
   document.getElementById("als").value = "";
   document.getElementById("nts").value = "";
-  document.getElementById("tampilkanhasil").innerHTML =
-    "Silahkan <br> memasukkan nilai <br> yang ingin di hitung";
+  document.getElementById("tampilkanhasil").innerHTML = "<br><br><br>";
 }
-// hitung luas end
 
 // hitung keliling start
 function hitungkeliling() {
@@ -77,10 +75,9 @@ function hitungkeliling() {
 }
 
 // hitung keliling = reset form
-function resetform2() {
+function resetForm2() {
   document.getElementById("ssa").value = "";
   document.getElementById("ssb").value = "";
   document.getElementById("ssc").value = "";
-  document.getElementById("tampilkanhasil2").innerHTML =
-    "Silahkan <br> memasukkan nilai setiap sisi <br> yang ingin di hitung";
+  document.getElementById("tampilkanhasil2").innerHTML = "<br><br><br>";
 }
