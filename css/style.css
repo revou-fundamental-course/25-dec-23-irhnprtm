@@ -100,10 +100,10 @@ h2 .luas,
 .buttons:hover {
   background-color: #8f7a02;
 }
-/* .button:hover::after {
+.button:hover::after {
   left: 0;
 }
-.button::after {
+/* .buttons::after {
   z-index: -1;
   content: "";
   top: 0;
