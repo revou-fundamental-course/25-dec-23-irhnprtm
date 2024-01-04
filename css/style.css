@@ -16,23 +16,24 @@
 body {
   background: url(/asset/wws.png);
   background-size: auto;
-  background-color: rgba(0, 0, 0, 0.514);
+  background-color: rgba(0, 0, 0, 0.39);
   align-items: center;
 }
-body marquee {
+
+marquee {
   margin-top: 2px;
   background-color: var(--bg-color);
   font-weight: bold;
-  border: 1px solid black;
-  font-size: 2rem;
+  border: 1px solid rgba(46, 46, 46, 0.904);
+  font-size: 1.2rem;
 }
-body marquee span {
-  color: rgba(4, 4, 179, 0.849);
+marquee span {
+  color: rgba(240, 216, 0, 0.849);
 }
 
-body marquee:hover {
+marquee:hover {
   background-color: #8f7a02;
-  color: rgba(4, 4, 179, 0.849);
+  color: rgba(26, 26, 27, 0.87);
 }
 
 img .gbrbumi {
@@ -41,6 +42,8 @@ img .gbrbumi {
 
 /* ucapan selamat */
 h2 {
+  background-color: #8f7a02;
+  padding: 3px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: var(--txt-color);
   text-align: center;
@@ -56,7 +59,7 @@ h2 .luas,
   color: var(--button-color);
 }
 
-/* img rumus */
+/* img segitiga start */
 .rumusimg1 {
   display: block;
   margin: auto;
@@ -76,8 +79,9 @@ h2 .luas,
   opacity: 100%;
   transform: scale(1);
 }
+/* img segitiga end */
 
-/* button */
+/* button pilihan start*/
 .pilihcalc {
   display: flex;
   justify-content: center;
@@ -97,14 +101,55 @@ h2 .luas,
   box-shadow: 2px 2px 4px rgba(44, 62, 80, 0.6),
     -2px -2px 4px rgba(41, 128, 185, 1);
 }
+
 .buttons:hover {
   background-color: #8f7a02;
 }
-.button:hover::after {
-  left: 0;
+/* button Pilihan End */
+
+/* button luas segitiga start */
+.bls {
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 1.2em;
+  width: 200px;
+  border: none;
+  margin: 0 8px;
+  border-radius: 20px;
+  padding: 10px;
+  position: relative;
+  background: none;
+  box-shadow: 2px 2px 4px rgba(44, 62, 80, 0.6),
+    -2px -2px 4px rgba(41, 128, 185, 1);
 }
 
-/* gitung luas */
+.bls:hover {
+  background-color: #8f7a02;
+}
+/* button luas segitiga end */
+
+/* button keliling segitiga start */
+.hkl {
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 1.2em;
+  width: 200px;
+  border: none;
+  margin: 0 8px;
+  border-radius: 20px;
+  padding: 10px;
+  position: relative;
+  background: none;
+  box-shadow: 2px 2px 4px rgba(44, 62, 80, 0.6),
+    -2px -2px 4px rgba(41, 128, 185, 1);
+}
+
+.hkl:hover {
+  background-color: #8f7a02;
+}
+/* button keliling segitiga End */
+
+/* hitung luas */
 .hitungluas {
   display: inline-block;
   justify-content: center;
@@ -114,11 +159,12 @@ input {
   text-decoration: none;
   border-radius: 30px;
   padding: 7px;
-  /* margin: 0.2em; */
+  margin: 0.2em;
   text-align: center;
 }
 
-.bls {
+.bls,
+.hkl {
   font-weight: 600;
   letter-spacing: 2px;
   font-size: 1em;
@@ -128,8 +174,25 @@ input {
   padding: 5px;
   position: relative;
   background: var(--button-color);
-  /* justify-content: center;
+  justify-content: center;
   position: relative;
   width: 100px;
-  margin: auto; */
+  margin: auto;
 }
+
+/* h3 hasil start*/
+h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/* h3 hasil start*/
+
+/* footer start */
+footer {
+  text-decoration: none;
+  background-color: #8f7a02;
+  text-align: center;
+  padding: 5px;
+  margin-top: 1px;
+}
+/* footer end */
