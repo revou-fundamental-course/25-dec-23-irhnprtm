@@ -37,11 +37,6 @@ marquee:hover {
   color: rgba(26, 26, 27, 0.87);
 }
 
-img .gbrbumi {
-  position: unset;
-}
-
-/* ucapan selamat */
 h2 {
   background-color: #8f7a02;
   padding: 3px;
@@ -136,7 +131,6 @@ h2 .luas,
   font-size: 1.2em;
   width: 200px;
   border: none;
-  margin: 0 8px;
   border-radius: 20px;
   padding: 10px;
   position: relative;
