@@ -1,0 +1,117 @@
+:root {
+  --primary-color: rgba(210, 247, 3, 0.925);
+  --button-color: rgba(81, 211, 5, 0.623);
+  --bg-color: rgba(39, 39, 39, 0.836);
+  --spn-color: blue;
+  --txt-color: rgb(36, 35, 35);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/* body */
+body {
+  background: url(/asset/wws.png);
+  background-size: auto;
+  background-color: rgba(0, 0, 0, 0.514);
+  align-items: center;
+}
+body marquee {
+  margin-top: 2px;
+  background-color: var(--bg-color);
+  font-weight: bold;
+  border: 1px solid black;
+  font-size: 2rem;
+}
+body marquee span {
+  color: rgba(4, 4, 179, 0.849);
+}
+
+body marquee:hover {
+  background-color: #8f7a02;
+  color: rgba(4, 4, 179, 0.849);
+}
+
+img .gbrbumi {
+  position: unset;
+}
+
+/* ucapan selamat */
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--txt-color);
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+h2 .matematik,
+.calc {
+  color: var(--primary-color);
+}
+h2 .luas,
+.keliling {
+  color: var(--button-color);
+}
+
+/* img rumus */
+.rumusimg1 {
+  display: block;
+  margin: auto;
+  margin-bottom: 1rem;
+  width: 400px;
+}
+.rumusimg1:hover {
+  transition: all 0.5s ease 0.1s;
+  content: "";
+  position: center;
+  top: auto;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  border-radius: 3px;
+  background: var(--button-color);
+  opacity: 100%;
+  transform: scale(1);
+}
+
+/* button */
+.pilihcalc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons {
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 1.2em;
+  width: 200px;
+  border: none;
+  margin: 0 8px;
+  border-radius: 20px;
+  padding: 10px;
+  position: relative;
+  background: none;
+  box-shadow: 2px 2px 4px rgba(44, 62, 80, 0.6),
+    -2px -2px 4px rgba(41, 128, 185, 1);
+}
+
+buttons:hover {
+  background-color: #8f7a02;
+}
+/* .button:hover::after {
+  left: 0;
+}
+.button::after {
+  z-index: -1;
+  content: "";
+  top: 0;
+  left: 100%;
+  border-radius: 20px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: teal;
+} */
