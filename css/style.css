@@ -97,8 +97,7 @@ h2 .luas,
   box-shadow: 2px 2px 4px rgba(44, 62, 80, 0.6),
     -2px -2px 4px rgba(41, 128, 185, 1);
 }
-
-buttons:hover {
+.buttons:hover {
   background-color: #8f7a02;
 }
 /* .button:hover::after {
